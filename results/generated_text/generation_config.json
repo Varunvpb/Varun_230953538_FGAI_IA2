@@ -1,0 +1,14 @@
+{
+  "max_new_tokens": 150,
+  "temperatures": [
+    0.5,
+    1.0,
+    1.5
+  ],
+  "seeds": [
+    "ROMEO:",
+    "KING:",
+    "To be, or not to be"
+  ],
+  "sampling_seed": 42
+}

@@ -1,0 +1,24 @@
+{
+  "raw_characters": 1115394,
+  "cleaned_characters": 1108152,
+  "total_word_tokens": 253599,
+  "unique_tokens_full_corpus": 14297,
+  "train_tokens": 202879,
+  "val_tokens": 25359,
+  "test_tokens": 25361,
+  "train_encoded_length": 202881,
+  "val_encoded_length": 25361,
+  "test_encoded_length": 25363,
+  "vocabulary_size": 8000,
+  "max_vocab_size": 8000,
+  "sequence_length": 20,
+  "window_stride": 1,
+  "split_strategy": "Chronological 80/10/10 split on the token stream before windowing. This evaluates next-word prediction on later held-out text and prevents overlapping windows from crossing split boundaries.",
+  "tokenization": "Regex word-level tokenizer: alphabetic tokens with internal apostrophes, digit sequences, and isolated punctuation. Case is preserved.",
+  "paths": {
+    "vocabulary": "data/processed/vocabulary.json",
+    "train_ids": "data/processed/train_ids.json",
+    "val_ids": "data/processed/val_ids.json",
+    "test_ids": "data/processed/test_ids.json"
+  }
+}

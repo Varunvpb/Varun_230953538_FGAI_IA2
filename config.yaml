@@ -1,0 +1,69 @@
+project:
+  name: "Tiny Shakespeare Word-Level Autoregressive Text Generation"
+  assignment: "ICT4403 Foundations of Generative AI — Assignment 2"
+  random_seed: 42
+
+paths:
+  raw_text: "data/raw/input.txt"
+  processed_dir: "data/processed"
+  checkpoints_dir: "checkpoints"
+  results_dir: "results"
+  figures_dir: "results/figures"
+  metrics_dir: "results/metrics"
+  generated_dir: "results/generated_text"
+  reports_dir: "results/reports"
+
+dataset:
+  name: "Tiny Shakespeare"
+  source_url: "https://raw.githubusercontent.com/karpathy/char-rnn/master/data/tinyshakespeare/input.txt"
+  encoding: "utf-8"
+
+preprocessing:
+  max_vocab_size: 8000
+  sequence_length: 20
+  train_ratio: 0.8
+  val_ratio: 0.1
+  test_ratio: 0.1
+  # Overlapping windows; stride 1 uses every next-word position.
+  window_stride: 1
+  lowercase: false
+  special_tokens:
+    - "<PAD>"
+    - "<UNK>"
+    - "<BOS>"
+    - "<EOS>"
+
+model:
+  embedding_dim: 64
+  hidden_dim: 128
+  num_layers: 1
+  dropout: 0.2
+
+training:
+  batch_size: 64
+  epochs: 5
+  learning_rate: 0.001
+  optimizer: "adam"
+  loss: "cross_entropy"
+  gradient_clip_norm: 1.0
+  num_workers: 0
+  log_every: 200
+  force_retrain: false
+
+generation:
+  max_new_tokens: 150
+  temperatures: [0.5, 1.0, 1.5]
+  seeds:
+    - "ROMEO:"
+    - "KING:"
+    - "To be, or not to be"
+  sampling_seed: 42
+
+evaluation:
+  ignore_pad: true
+
+submission:
+  student_name: "YOUR_NAME"
+  registration_number: "YOUR_REG_NUMBER"
+  github_url: "YOUR_GITHUB_REPOSITORY_URL"
+  system_title: "Tiny Shakespeare Word-Level Autoregressive Text Generation"

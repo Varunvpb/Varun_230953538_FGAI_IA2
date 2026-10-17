@@ -1,0 +1,8 @@
+{
+  "model": "gru",
+  "display_name": "GRU",
+  "criteria": "Primary: lowest test perplexity (equivalently lowest test cross-entropy) on the held-out chronological test split. Secondary: test next-word accuracy and generated-text diversity/repetition. Training loss was not used for selection.",
+  "test_perplexity": 134.1788258323908,
+  "test_loss": 4.899173431406268,
+  "test_accuracy": 0.1480487708637493
+}

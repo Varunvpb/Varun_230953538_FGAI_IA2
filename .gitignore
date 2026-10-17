@@ -1,0 +1,50 @@
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+.eggs/
+dist/
+build/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS
+Thumbs.db
+Desktop.ini
+.DS_Store
+
+# Secrets
+.env
+.env.*
+credentials.json
+*.pem
+
+# Training artifacts (recreate via pipeline)
+checkpoints/*.pt
+checkpoints/*.pth
+!checkpoints/.gitkeep
+
+# Caches
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.cache/
+
+# Local logs
+*.log

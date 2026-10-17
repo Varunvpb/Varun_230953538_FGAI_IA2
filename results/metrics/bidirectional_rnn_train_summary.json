@@ -1,0 +1,54 @@
+{
+  "architecture": "bidirectional_rnn",
+  "history": [
+    {
+      "epoch": 1,
+      "train_loss": 5.959932760011141,
+      "val_loss": 5.241939270196711,
+      "val_perplexity": 189.03633971404233,
+      "val_accuracy": 0.13886586953948146,
+      "epoch_duration_sec": 294.0521396000404
+    },
+    {
+      "epoch": 2,
+      "train_loss": 5.412483371938159,
+      "val_loss": 5.129466553305654,
+      "val_perplexity": 168.92698046591246,
+      "val_accuracy": 0.14435105165542006,
+      "epoch_duration_sec": 248.94279240001924
+    },
+    {
+      "epoch": 3,
+      "train_loss": 5.137577361757231,
+      "val_loss": 5.100083646822839,
+      "val_perplexity": 164.03562778515294,
+      "val_accuracy": 0.14549544216881732,
+      "epoch_duration_sec": 252.66142750007566
+    },
+    {
+      "epoch": 4,
+      "train_loss": 4.917558711474934,
+      "val_loss": 5.149910544987838,
+      "val_perplexity": 172.4160661456859,
+      "val_accuracy": 0.14569275087802375,
+      "epoch_duration_sec": 258.47160719998647
+    },
+    {
+      "epoch": 5,
+      "train_loss": 4.7364198229990455,
+      "val_loss": 5.163805600852721,
+      "val_perplexity": 174.82851878412905,
+      "val_accuracy": 0.14573221261986505,
+      "epoch_duration_sec": 263.3513679000316
+    }
+  ],
+  "best_val_loss": 5.100083646822839,
+  "best_epoch": 3,
+  "total_training_time_sec": 1359.7653354000067,
+  "epochs_completed": 5,
+  "device": "cpu",
+  "checkpoint_path": "C:\\Users\\varun\\OneDrive\\Desktop\\py\\checkpoints\\bidirectional_rnn_best.pt",
+  "parameter_count": 2617664,
+  "reused_checkpoint": false,
+  "display_name": "Bidirectional RNN"
+}

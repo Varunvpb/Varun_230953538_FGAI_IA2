@@ -1,0 +1,54 @@
+{
+  "architecture": "lstm",
+  "history": [
+    {
+      "epoch": 1,
+      "train_loss": 5.936458411267437,
+      "val_loss": 5.221076526655394,
+      "val_perplexity": 185.13337784879764,
+      "val_accuracy": 0.13397261355116216,
+      "epoch_duration_sec": 196.36218689999077
+    },
+    {
+      "epoch": 2,
+      "train_loss": 5.376311096950524,
+      "val_loss": 5.031298440434431,
+      "val_perplexity": 153.13171607739375,
+      "val_accuracy": 0.1461268300382779,
+      "epoch_duration_sec": 174.5769006999908
+    },
+    {
+      "epoch": 3,
+      "train_loss": 5.167647679264452,
+      "val_loss": 4.960508813459492,
+      "val_perplexity": 142.6663680008474,
+      "val_accuracy": 0.1523223235073596,
+      "epoch_duration_sec": 174.08583460003138
+    },
+    {
+      "epoch": 4,
+      "train_loss": 5.024613700996939,
+      "val_loss": 4.912922322630134,
+      "val_perplexity": 136.03637628155823,
+      "val_accuracy": 0.15567657156386883,
+      "epoch_duration_sec": 173.57286890002433
+    },
+    {
+      "epoch": 5,
+      "train_loss": 4.913847199731467,
+      "val_loss": 4.899280916830203,
+      "val_perplexity": 134.19324887548802,
+      "val_accuracy": 0.15508464543624956,
+      "epoch_duration_sec": 168.5078468999127
+    }
+  ],
+  "best_val_loss": 4.899280916830203,
+  "best_epoch": 5,
+  "total_training_time_sec": 916.2383762000827,
+  "epochs_completed": 5,
+  "device": "cpu",
+  "checkpoint_path": "C:\\Users\\varun\\OneDrive\\Desktop\\py\\checkpoints\\lstm_best.pt",
+  "parameter_count": 1643328,
+  "reused_checkpoint": false,
+  "display_name": "LSTM"
+}

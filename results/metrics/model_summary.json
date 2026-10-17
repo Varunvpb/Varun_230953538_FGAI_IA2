@@ -1,0 +1,166 @@
+{
+  "simple_rnn": {
+    "model": "simple_rnn",
+    "display_name": "Simple RNN",
+    "parameter_count": 1568832,
+    "best_epoch": 5,
+    "best_val_loss_checkpoint": 4.999105286717692,
+    "total_training_time_sec": 845.27319420001,
+    "epochs_completed": 5,
+    "device": "cpu",
+    "reused_checkpoint": true,
+    "validation": {
+      "loss": 4.999105295749768,
+      "perplexity": 148.28043260267287,
+      "accuracy": 0.14952053983662839,
+      "num_targets": 25341.0
+    },
+    "test": {
+      "loss": 5.0100168603440185,
+      "perplexity": 149.90726361577512,
+      "accuracy": 0.14193268358126504,
+      "num_targets": 25343.0
+    },
+    "hyperparameters": {
+      "embedding_dim": 64,
+      "hidden_dim": 128,
+      "num_layers": 1,
+      "dropout": 0.2,
+      "vocabulary_limit": 8000,
+      "vocabulary_size_actual": 8000,
+      "sequence_length": 20,
+      "window_stride": 1,
+      "batch_size": 64,
+      "epochs": 5,
+      "learning_rate": 0.001,
+      "optimizer": "adam",
+      "loss": "cross_entropy",
+      "gradient_clip_norm": 1.0,
+      "random_seed": 42,
+      "device": "cpu"
+    }
+  },
+  "bidirectional_rnn": {
+    "model": "bidirectional_rnn",
+    "display_name": "Bidirectional RNN",
+    "parameter_count": 2617664,
+    "best_epoch": 3,
+    "best_val_loss_checkpoint": 5.100083646822839,
+    "total_training_time_sec": 1359.7653354000067,
+    "epochs_completed": 5,
+    "device": "cpu",
+    "reused_checkpoint": true,
+    "validation": {
+      "loss": 5.1000836504356695,
+      "perplexity": 164.0356283777858,
+      "accuracy": 0.14549544216881732,
+      "num_targets": 25341.0
+    },
+    "test": {
+      "loss": 5.094639152037957,
+      "perplexity": 163.1449634738678,
+      "accuracy": 0.14410290810085624,
+      "num_targets": 25343.0
+    },
+    "hyperparameters": {
+      "embedding_dim": 64,
+      "hidden_dim": 128,
+      "num_layers": 1,
+      "dropout": 0.2,
+      "vocabulary_limit": 8000,
+      "vocabulary_size_actual": 8000,
+      "sequence_length": 20,
+      "window_stride": 1,
+      "batch_size": 64,
+      "epochs": 5,
+      "learning_rate": 0.001,
+      "optimizer": "adam",
+      "loss": "cross_entropy",
+      "gradient_clip_norm": 1.0,
+      "random_seed": 42,
+      "device": "cpu"
+    }
+  },
+  "lstm": {
+    "model": "lstm",
+    "display_name": "LSTM",
+    "parameter_count": 1643328,
+    "best_epoch": 5,
+    "best_val_loss_checkpoint": 4.899280916830203,
+    "total_training_time_sec": 916.2383762000827,
+    "epochs_completed": 5,
+    "device": "cpu",
+    "reused_checkpoint": true,
+    "validation": {
+      "loss": 4.899280916830203,
+      "perplexity": 134.19324887548802,
+      "accuracy": 0.15508464543624956,
+      "num_targets": 25341.0
+    },
+    "test": {
+      "loss": 4.943509520715956,
+      "perplexity": 140.26163791074816,
+      "accuracy": 0.14461587026003236,
+      "num_targets": 25343.0
+    },
+    "hyperparameters": {
+      "embedding_dim": 64,
+      "hidden_dim": 128,
+      "num_layers": 1,
+      "dropout": 0.2,
+      "vocabulary_limit": 8000,
+      "vocabulary_size_actual": 8000,
+      "sequence_length": 20,
+      "window_stride": 1,
+      "batch_size": 64,
+      "epochs": 5,
+      "learning_rate": 0.001,
+      "optimizer": "adam",
+      "loss": "cross_entropy",
+      "gradient_clip_norm": 1.0,
+      "random_seed": 42,
+      "device": "cpu"
+    }
+  },
+  "gru": {
+    "model": "gru",
+    "display_name": "GRU",
+    "parameter_count": 1618496,
+    "best_epoch": 4,
+    "best_val_loss_checkpoint": 4.884193955504204,
+    "total_training_time_sec": 871.6444142999826,
+    "epochs_completed": 5,
+    "device": "cpu",
+    "reused_checkpoint": false,
+    "validation": {
+      "loss": 4.884193955504204,
+      "perplexity": 132.18387629639045,
+      "accuracy": 0.16021467187561658,
+      "num_targets": 25341.0
+    },
+    "test": {
+      "loss": 4.899173431406268,
+      "perplexity": 134.1788258323908,
+      "accuracy": 0.14804877086374935,
+      "num_targets": 25343.0
+    },
+    "hyperparameters": {
+      "embedding_dim": 64,
+      "hidden_dim": 128,
+      "num_layers": 1,
+      "dropout": 0.2,
+      "vocabulary_limit": 8000,
+      "vocabulary_size_actual": 8000,
+      "sequence_length": 20,
+      "window_stride": 1,
+      "batch_size": 64,
+      "epochs": 5,
+      "learning_rate": 0.001,
+      "optimizer": "adam",
+      "loss": "cross_entropy",
+      "gradient_clip_norm": 1.0,
+      "random_seed": 42,
+      "device": "cpu"
+    }
+  }
+}

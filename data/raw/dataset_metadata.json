@@ -1,0 +1,15 @@
+{
+  "dataset_name": "Tiny Shakespeare",
+  "source_url": "https://raw.githubusercontent.com/karpathy/char-rnn/master/data/tinyshakespeare/input.txt",
+  "download_or_validation_status": "validated_existing",
+  "reused_existing_file": true,
+  "timestamp_utc": "2026-10-17T17:36:16.257011+00:00",
+  "path": "data/raw/input.txt",
+  "bytes": 1115394,
+  "characters": 1115394,
+  "lines": 40000,
+  "sha256": "86c4e6aa9db7c042ec79f339dcb96d42b0075e16b8fc2e86bf0ca57e2dc565ed",
+  "encoding": "utf-8",
+  "decoded": true,
+  "non_empty": true
+}

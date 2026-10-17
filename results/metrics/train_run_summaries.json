@@ -1,0 +1,218 @@
+[
+  {
+    "architecture": "simple_rnn",
+    "history": [
+      {
+        "epoch": 1,
+        "train_loss": 5.95543826495552,
+        "val_loss": 5.223441473296756,
+        "val_perplexity": 185.57172654027192,
+        "val_accuracy": 0.13973402785998973,
+        "epoch_duration_sec": 149.0302451000316
+      },
+      {
+        "epoch": 2,
+        "train_loss": 5.445809972096358,
+        "val_loss": 5.083857249961477,
+        "val_perplexity": 161.39539921745148,
+        "val_accuracy": 0.14786314667929443,
+        "epoch_duration_sec": 156.24054060003255
+      },
+      {
+        "epoch": 3,
+        "train_loss": 5.249768516132978,
+        "val_loss": 5.050005357496261,
+        "val_perplexity": 156.0233003784042,
+        "val_accuracy": 0.14952053983662839,
+        "epoch_duration_sec": 163.6721158999717
+      },
+      {
+        "epoch": 4,
+        "train_loss": 5.113476997617991,
+        "val_loss": 5.02392147185841,
+        "val_perplexity": 152.0062246812969,
+        "val_accuracy": 0.14904699893453296,
+        "epoch_duration_sec": 170.96776940010022
+      },
+      {
+        "epoch": 5,
+        "train_loss": 5.016799934451199,
+        "val_loss": 4.999105286717692,
+        "val_perplexity": 148.2804312633928,
+        "val_accuracy": 0.14952053983662839,
+        "epoch_duration_sec": 174.13387649995275
+      }
+    ],
+    "best_val_loss": 4.999105286717692,
+    "best_epoch": 5,
+    "total_training_time_sec": 845.27319420001,
+    "epochs_completed": 5,
+    "device": "cpu",
+    "checkpoint_path": "C:\\Users\\varun\\OneDrive\\Desktop\\py\\checkpoints\\simple_rnn_best.pt",
+    "parameter_count": 1568832,
+    "reused_checkpoint": true,
+    "display_name": "Simple RNN"
+  },
+  {
+    "architecture": "bidirectional_rnn",
+    "history": [
+      {
+        "epoch": 1,
+        "train_loss": 5.959932760011141,
+        "val_loss": 5.241939270196711,
+        "val_perplexity": 189.03633971404233,
+        "val_accuracy": 0.13886586953948146,
+        "epoch_duration_sec": 294.0521396000404
+      },
+      {
+        "epoch": 2,
+        "train_loss": 5.412483371938159,
+        "val_loss": 5.129466553305654,
+        "val_perplexity": 168.92698046591246,
+        "val_accuracy": 0.14435105165542006,
+        "epoch_duration_sec": 248.94279240001924
+      },
+      {
+        "epoch": 3,
+        "train_loss": 5.137577361757231,
+        "val_loss": 5.100083646822839,
+        "val_perplexity": 164.03562778515294,
+        "val_accuracy": 0.14549544216881732,
+        "epoch_duration_sec": 252.66142750007566
+      },
+      {
+        "epoch": 4,
+        "train_loss": 4.917558711474934,
+        "val_loss": 5.149910544987838,
+        "val_perplexity": 172.4160661456859,
+        "val_accuracy": 0.14569275087802375,
+        "epoch_duration_sec": 258.47160719998647
+      },
+      {
+        "epoch": 5,
+        "train_loss": 4.7364198229990455,
+        "val_loss": 5.163805600852721,
+        "val_perplexity": 174.82851878412905,
+        "val_accuracy": 0.14573221261986505,
+        "epoch_duration_sec": 263.3513679000316
+      }
+    ],
+    "best_val_loss": 5.100083646822839,
+    "best_epoch": 3,
+    "total_training_time_sec": 1359.7653354000067,
+    "epochs_completed": 5,
+    "device": "cpu",
+    "checkpoint_path": "C:\\Users\\varun\\OneDrive\\Desktop\\py\\checkpoints\\bidirectional_rnn_best.pt",
+    "parameter_count": 2617664,
+    "reused_checkpoint": true,
+    "display_name": "Bidirectional RNN"
+  },
+  {
+    "architecture": "lstm",
+    "history": [
+      {
+        "epoch": 1,
+        "train_loss": 5.936458411267437,
+        "val_loss": 5.221076526655394,
+        "val_perplexity": 185.13337784879764,
+        "val_accuracy": 0.13397261355116216,
+        "epoch_duration_sec": 196.36218689999077
+      },
+      {
+        "epoch": 2,
+        "train_loss": 5.376311096950524,
+        "val_loss": 5.031298440434431,
+        "val_perplexity": 153.13171607739375,
+        "val_accuracy": 0.1461268300382779,
+        "epoch_duration_sec": 174.5769006999908
+      },
+      {
+        "epoch": 3,
+        "train_loss": 5.167647679264452,
+        "val_loss": 4.960508813459492,
+        "val_perplexity": 142.6663680008474,
+        "val_accuracy": 0.1523223235073596,
+        "epoch_duration_sec": 174.08583460003138
+      },
+      {
+        "epoch": 4,
+        "train_loss": 5.024613700996939,
+        "val_loss": 4.912922322630134,
+        "val_perplexity": 136.03637628155823,
+        "val_accuracy": 0.15567657156386883,
+        "epoch_duration_sec": 173.57286890002433
+      },
+      {
+        "epoch": 5,
+        "train_loss": 4.913847199731467,
+        "val_loss": 4.899280916830203,
+        "val_perplexity": 134.19324887548802,
+        "val_accuracy": 0.15508464543624956,
+        "epoch_duration_sec": 168.5078468999127
+      }
+    ],
+    "best_val_loss": 4.899280916830203,
+    "best_epoch": 5,
+    "total_training_time_sec": 916.2383762000827,
+    "epochs_completed": 5,
+    "device": "cpu",
+    "checkpoint_path": "C:\\Users\\varun\\OneDrive\\Desktop\\py\\checkpoints\\lstm_best.pt",
+    "parameter_count": 1643328,
+    "reused_checkpoint": true,
+    "display_name": "LSTM"
+  },
+  {
+    "architecture": "gru",
+    "history": [
+      {
+        "epoch": 1,
+        "train_loss": 5.8892455936097,
+        "val_loss": 5.14738333602998,
+        "val_perplexity": 171.98088484749888,
+        "val_accuracy": 0.13819501992817962,
+        "epoch_duration_sec": 251.3578772000037
+      },
+      {
+        "epoch": 2,
+        "train_loss": 5.335534776886226,
+        "val_loss": 4.98919720409052,
+        "val_perplexity": 146.8185108721775,
+        "val_accuracy": 0.14881022848348527,
+        "epoch_duration_sec": 201.69134849996772
+      },
+      {
+        "epoch": 3,
+        "train_loss": 5.111536184000987,
+        "val_loss": 4.9343057564668085,
+        "val_perplexity": 138.97662540930565,
+        "val_accuracy": 0.1544137958249477,
+        "epoch_duration_sec": 145.7593650999479
+      },
+      {
+        "epoch": 4,
+        "train_loss": 4.9517000110063085,
+        "val_loss": 4.884193955504204,
+        "val_perplexity": 132.18387629639045,
+        "val_accuracy": 0.16021467187561658,
+        "epoch_duration_sec": 117.44826520001516
+      },
+      {
+        "epoch": 5,
+        "train_loss": 4.826202809337294,
+        "val_loss": 4.8868704894399935,
+        "val_perplexity": 132.53814482143332,
+        "val_accuracy": 0.1638451521250148,
+        "epoch_duration_sec": 120.43047769996338
+      }
+    ],
+    "best_val_loss": 4.884193955504204,
+    "best_epoch": 4,
+    "total_training_time_sec": 871.6444142999826,
+    "epochs_completed": 5,
+    "device": "cpu",
+    "checkpoint_path": "C:\\Users\\varun\\OneDrive\\Desktop\\py\\checkpoints\\gru_best.pt",
+    "parameter_count": 1618496,
+    "reused_checkpoint": false,
+    "display_name": "GRU"
+  }
+]

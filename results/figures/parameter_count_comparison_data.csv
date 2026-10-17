@@ -1,0 +1,5 @@
+model,parameter_count
+Simple RNN,1568832.0
+Bidirectional RNN,2617664.0
+LSTM,1643328.0
+GRU,1618496.0
